@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 10px;
+    background-color:lightpink;
+    
+
+}
+.logo h1::before{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    content: 'P';
+    color: white;
+    background-color:#2f0;
+    padding: 6px 6px 6px 6px;
+
+}    
+nav p{
+    font-size: 10px;
+    margin-left: 35px;
+    font-weight: 900;
+}
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+}
+
+
+ul a{
+    text-decoration: none;
+    color: black;
+    
+}
+nav ul button{
+    all: unset;
+    width: 90px;
+    background-color:rgb(241, 51, 51);
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
